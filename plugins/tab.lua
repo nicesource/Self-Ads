@@ -70,11 +70,11 @@ local function run(msg, matches)
       return "Are you trying to troll me?"
    end
    --vardump(msg)
-   if matches[1] == "chat_add_user" then
+   if matches[1] == "channel_add_user_link" then
       return "ربات ضد لینک چیست ؟ \n-رباتی ک میتونین با اون گروهتون رو از \n+اسپم \n+لینک فرستادن کاربران\n+ چالش \n+کلمات بد\nو ...\nمحافظت کنین\n😍😍 با کلی امکانات دیگه\n—------------------------\nاگه این رباتو میخاید بیاید گروه زیر سفارش بدید\nhttps://telegram.me/joinchat/DHi5Sz6vOIwg850BW3TuDA\n\n*فقط 3 هزار تومن برای این ربات پیشرفته\n*گروهتون رو برای همیشه با امنیت کنید\n*اگه به هر دلیلی توانایی پرداخت هزینه ربات رو ندارید ، میتونید 2 نفر خریدار به ما معرفی کنید"
    elseif matches[1] == "chat_add_user_link" then
       return "ربات ضد لینک چیست ؟ \n-رباتی ک میتونین با اون گروهتون رو از \n+اسپم \n+لینک فرستادن کاربران\n+ چالش \n+کلمات بد\nو ...\nمحافظت کنین\n😍😍 با کلی امکانات دیگه\n—------------------------\nاگه این رباتو میخاید بیاید گروه زیر سفارش بدید\nhttps://telegram.me/joinchat/DHi5Sz6vOIwg850BW3TuDA\n\n*فقط 3 هزار تومن برای این ربات پیشرفته\n*گروهتون رو برای همیشه با امنیت کنید\n*اگه به هر دلیلی توانایی پرداخت هزینه ربات رو ندارید ، میتونید 2 نفر خریدار به ما معرفی کنید"
-   elseif matches[1] == "channel_add_user_link" then
+   elseif matches[1] == " " then
        local bye_name = "@"..msg.action.user.username
        return 
    end
