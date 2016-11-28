@@ -237,6 +237,7 @@ function create_config( )
      "getplug",
      "groupmanager",
      "id",
+      "autoj",
      "tools",
      "weather",
      "webshot",
